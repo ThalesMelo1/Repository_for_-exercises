@@ -6,6 +6,8 @@ int main()
     scanf("%d", &NumPessoas);
     int Notas[NumPessoas];
     float SomaNotas = 0, media;
+    while (NumPessoas > 0)
+    {
         for (int i = 0; i < NumPessoas; i++)
         {
             scanf("%d", &Notas[i]);
@@ -19,6 +21,7 @@ int main()
                 AcimaMedia++;
             }
         }
-        printf("%.3f%%", (float)AcimaMedia/NumPessoas*100);
-        return 0;
+        printf("%.3f%%", (float)AcimaMedia / NumPessoas * 100);
+    }
+    return 0;
 }
