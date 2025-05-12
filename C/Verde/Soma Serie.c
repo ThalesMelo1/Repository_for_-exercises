@@ -28,6 +28,6 @@ int main()
             }
         }
     }
-    printf("%f", soma);
+    printf("%.2f", soma);
     return 0;
 }
