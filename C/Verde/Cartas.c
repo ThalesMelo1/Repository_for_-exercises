@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 void PreencheVetor(int vet[], int tam)
 {
     for (int i = 0; i < tam; i++)
@@ -7,7 +6,6 @@ void PreencheVetor(int vet[], int tam)
         scanf("%d", &vet[i]);
     }
 }
-
 void VerificaCres(int vet[], int tam, int *cre)
 {
     int menor = vet[0];
@@ -26,7 +24,6 @@ void VerificaCres(int vet[], int tam, int *cre)
         (*cre) = 1;
     }
 }
-
 void VerificaDec(int vet[], int tam, int *dec)
 {
     int maior = vet[tam];
@@ -45,7 +42,6 @@ void VerificaDec(int vet[], int tam, int *dec)
         (*dec) = 1;
     }
 }
-
 int main()
 {
     int vetor[5];
