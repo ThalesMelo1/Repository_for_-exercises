@@ -4,6 +4,13 @@
 
 int main()
 {
-    printf("Hello World");
-    return 0;
+    int *inteiro;
+    float *real;
+    char *caractere;
+
+    inteiro = (int*)malloc(sizeof(int));
+    real = (float*)malloc(sizeof(float));
+    caractere = (char*)malloc(sizeof(char));
+
+    
 }
