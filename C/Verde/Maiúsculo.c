@@ -24,6 +24,7 @@ int main()
         fgets(palavras, sizeof(palavras), stdin);
         scanf("%[^\n]", palavras);
         NumUpper = 0;
+        fflush(stdin);
     }    
     return 0;
 }
