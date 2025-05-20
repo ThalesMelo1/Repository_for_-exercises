@@ -2,28 +2,30 @@
 
 int main()
 {
-    int num1, num2;
-    scanf("%d%d", &num1, &num2);
-    int NumPrimos[num2-num1];
-    for(int j = num1; j < num2; j++)
+    int A, B, primo;
+    scanf("%d%d", &A, &B);
+    for (int i = A; i < B; i++)
     {
-        int copia = num1;
-        for(int i = (copia-1); i > 1; i--)
+        if (i < 2)
         {
-            if(num1%i==0)
+            continue;
+        }
+        else
+        {
+            primo = 1;
+            for (int j = 2; j*j <= i; j++)
             {
-
+                if (i % j == 0)
+                {
+                    primo = 0;
+                    break;
+                }
             }
-            else
+            if (primo == 1)
             {
-                NumPrimos[j] = copia;
+                printf("%d ", i);
             }
         }
-        copia++;
-    }
-    for(int k = num1; k < num2; k++)
-    {
-        printf("%d ", NumPrimos[k]);
     }
     return 0;
 }
