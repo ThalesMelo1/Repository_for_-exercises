@@ -14,15 +14,15 @@ int SomaRecInd(int *vetor, int tam)
     {
         return vetor[tam];
     }
-    int soma;
-    soma = vetor[tam] + soma;
-    return SomaRecInd(vetor, tam - 1) + soma;
+    return SomaRecInd(vetor, tam - 1) + vetor[tam];
 }
 
 int main()
 {
     int vetor[10];
+    int soma = 0;
     VetorUsuario(vetor, 10);
-    printf("%d", SomaRecInd(vetor, 10));
+    soma = SomaRecInd(vetor, 10);
+    printf("%d", soma);
     return 0;
 }
