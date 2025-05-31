@@ -1,1 +1,1 @@
-Um dos repertórios que irei usar na faculdade kk. Boa sorte
+This is a repository for exercises from college.
