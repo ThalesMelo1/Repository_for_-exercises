@@ -31,8 +31,13 @@ class CirculoSimples
             this->radius = radius;
             CalculateArea();
             CalculateCircunferencia();
-            
+          
         }
+
+  float calcularDistancia(CirculoSimples& outro)
+{
+      return sqrt(pow(x-outro.x,2)+pow(y-outro.y,2));
+}
 
         void ChangeRaio(float c)
         {
