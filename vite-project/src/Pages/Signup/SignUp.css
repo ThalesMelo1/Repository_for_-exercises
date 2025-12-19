@@ -1,0 +1,43 @@
+.SignUp {
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: rgb(195, 133, 133);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial;
+}
+
+.header {
+  background-color: #442f72;
+  height: 60px;
+  color: white;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: top;
+}
+
+.main {
+  background-color: #442f72;
+  height: 480px;
+  width: 720px;
+  color: white;
+
+  margin-top: 80px;
+}
+
+.top
+{
+  background-color: #000000;
+  height: 40px;
+  width: 80px;
+  color: white;
+
+  align-items: center;
+}
