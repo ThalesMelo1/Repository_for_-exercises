@@ -6,11 +6,11 @@ const SignUp = () => {
             <header className = "header"> </header>
 
             <section className = "top">
-                Login
+                LOG IN
             </section>
 
             <main className = "main">
-
+                
             </main>
         </body>
     );

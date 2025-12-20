@@ -28,16 +28,24 @@
   height: 480px;
   width: 720px;
   color: white;
+  border-radius:32px;
 
   margin-top: 80px;
+  position: relative;
 }
 
 .top
 {
   background-color: #000000;
   height: 40px;
-  width: 80px;
+  width: 180px;
   color: white;
-
+  
+  top: 13%; 
+  left: 44%;
+  display: grid;
+  place-items: center;
+  position: absolute;
   align-items: center;
+  text-align: center;
 }
